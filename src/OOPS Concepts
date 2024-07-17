@@ -1,0 +1,37 @@
+The four main principles of Object-Oriented Programming are:
+
+A.E.I.P
+
+Abstraction
+Encapsulation [Information hiding] - Protective Shield prevent data to be accessed by code outside of shield
+Inheritance
+Polymorphism
+
+1. Encapsulation
+
+A simple example of encapsulation is a school bag.
+A school bag can keep all your items safe in one place, such as your books, pens, pencils, ruler, and more.
+
+Information hiding or data hiding in programming is about protecting data or information from any inadvertent change throughout the program.
+This is a powerful Object-Oriented Programming feature, and it is closely associated with encapsulation.
+
+The idea behind encapsulation is to ensure that "sensitive" data is hidden from users. To achieve this, you must:
+Declare class variables/attributes as private.
+Provide public get and set methods to access and update the value of a private variable.
+
+As you remember, private variables can only be accessed within the same
+class and an external class cannot access them.
+However, they can be accessed if we provide public get and set methods.
+
+INHERITANCE
+
+Inheritance in Java
+Inheritance allows classes to inherit attributes and methods of other classes. This means that parent classes extend attributes and behaviors to child classes. Inheritance supports reusability.
+
+A simple example that explains the term inheritance is that human beings (in general) inherit certain properties from the class "Human" such as the ability to speak, breathe, eat, drink, and so on.
+
+We group the "inheritance concept" into two categories:
+
+subclass (child) - the class that inherits from another class.
+superclass (parent) - the class being inherited from.
+To inherit from a class, we use the extends keyword.

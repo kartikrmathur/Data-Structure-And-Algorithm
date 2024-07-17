@@ -1,0 +1,42 @@
+In Java, every application starts with a class name, and this class must match the file name.
+When saving a file, save it using the class name and add “.java” to the end of the file name.
+
+* Java is case-sensitive.
+
+public static void main(String[] args) <- it is the entry point of any Java program.<- The only thing that can be changed is the name of the string array argument
+
+A class is defined as a collection of objects.You can also think of a class as a blueprint from which you can create an individual object.
+
+To create a class, we use the keyword  class.
+class ClassName {
+  // fields -> represent state
+  // methods -> represent behaviour
+}
+
+**Note :-A class should always start with an uppercase first letter, and the Java file should match the class name.
+
+How to create an object is in Object.java
+
+Access Modifiers :-
+
+i.Default :-  use it to make all members within the same package visible, but they can be accessed only within the same package.
+when no access modifier is specified or declared for a class, method, or data member, it automatically takes the default access modifier.
+ii.Public
+iii.Private
+iv.Protected
+
+the best way to access these private variables is to use the getter and setter methods.
+
+Every Java program starts its execution in the main() method.
+public static void main(String[] args)
+
+ public keyword is an access modifier - So, when we make the main() method public, it makes it globally available.
+ When a method is declared with a static keyword, it is known as a static method.
+ the Java main() method is always static so that the compiler can call it without or before the creation of an object of the class.
+ If the main() method is allowed to be non-static, then the Java Virtual Machine will have to instantiate its class while calling the main() method.
+ static keyword is also important as it saves unnecessary memory wasting which would have been used by the object declared only for calling the main() method by the Java Virtual Machine.
+
+ void keyword
+ that a method doesn’t return anything.
+ Whenever the main() method is not expected to return anything, then its return type is void.
+ that as soon as the main() method terminates, the Java program terminates too.
