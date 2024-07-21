@@ -1,3 +1,22 @@
+OOPS - Object Oriented Programming
+program are consider as collection of object and each object is nothing but collection of class.
+
+Object :- embodiment of a class .
+instance of a class.
+mirror real world entity
+
+object have
+1. state
+2. behaviour
+3. identity
+
+car [object]            |   color, band, speed  |   attribute
+based on car [class]    |   accelerate , brake  |   behaviour
+
+Class :-
+representation of type of an object
+serve as blueprint/plan/template that describe detail of an object.
+
 The four main principles of Object-Oriented Programming are:
 
 A.E.I.P
