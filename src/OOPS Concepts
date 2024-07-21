@@ -1,0 +1,75 @@
+The four main principles of Object-Oriented Programming are:
+
+A.E.I.P
+
+Abstraction
+Encapsulation [Information hiding] - Protective Shield prevent data to be accessed by code outside of shield
+Inheritance
+Polymorphism
+
+1. ABSTRACTION
+Hiding the internal details and used to describe things in simple terms
+
+2 types :- data abstraction
+        :- process abstraction
+
+achieved by :- encapsulation and inheritance
+
+Two side of encapsulation
+
+      Simple side     Abstraction     Complex side
+      Happy user          ||          Logical developer
+            ☺   <----     ||  ----->  👨🏻‍💻
+      Use cases           ||          Logic + Maths + calculation
+                          ||
+                       ________
+
+
+2. ENCAPSULATION
+
+A simple example of encapsulation is a school bag.
+A school bag can keep all your items safe in one place, such as your books, pens, pencils, ruler, and more.
+
+Information hiding or data hiding in programming is about protecting data or information from any inadvertent change throughout the program.
+This is a powerful Object-Oriented Programming feature, and it is closely associated with encapsulation.
+
+The idea behind encapsulation is to ensure that "sensitive" data is hidden from users. To achieve this, you must:
+Declare class variables/attributes as private.
+Provide public get and set methods to access and update the value of a private variable.
+
+As you remember, private variables can only be accessed within the same
+class and an external class cannot access them.
+However, they can be accessed if we provide public get and set methods.
+
+3. INHERITANCE
+
+Inheritance allows classes to inherit attributes and methods of other classes.
+This means that parent classes extend attributes and behaviors to child classes. Inheritance supports reusability.
+
+Method of code Reuse
+
+A simple example that explains the term inheritance
+is that human beings (in general) inherit certain properties from the class "Human" such as the ability to speak, breathe, eat, drink, and so on.
+
+We group the "inheritance concept" into two categories:
+
+subclass (child) - the class that inherits from another class.
+superclass (parent) - the class being inherited from.
+To inherit from a class, we use the extends keyword.
+
+4. POLYMORPHISM
+
+an object can behave different in different condition
+2 type of polymorphism
+
+1. runtime polymorphism :-
+achieved by method overriding
+subclass has to override superclass method for runtime polymorphism
+if we work on terms of superclass the actual implementation class is decide at runtime
+since decision is made at runtime so we call it runtime polymorphism
+
+2. compiletime polymorphism
+achieved by method overloading
+implemented when we have a - ISA Relationship
+all method name are same but argument is different
+Compiler will be able to identify the method to invoke at compile time
