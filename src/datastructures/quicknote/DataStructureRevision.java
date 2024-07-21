@@ -12,6 +12,7 @@ public class DataStructureRevision {
         Hashmap(args);
         TreeMap(args);
         Priorityqueue(args);
+        Vector(args);
     }
 
 //    ArrayList
@@ -37,7 +38,7 @@ public class DataStructureRevision {
         stack.push("Java");
         stack.push("World");
         System.out.println("Stack:- "+stack);
-        System.out.println(stack.pop());
+        System.out.println("Stack.pop:- "+stack.pop());
     }
 //  Queue
 //  FIFO
@@ -47,7 +48,7 @@ public class DataStructureRevision {
         queue.add("Java");
         queue.add("World");
         System.out.println("Queue:- "+queue);
-        System.out.println(queue.poll());
+        System.out.println("Queue.poll:- "+queue.poll());
     }
 //  HashSet
 //  HashSet is a collection that doesn’t allow duplicate elements. It’s especially useful when you want to keep track of unique elements.
@@ -65,7 +66,7 @@ public class DataStructureRevision {
         HashMap<String,String> hashMap= new HashMap<>();
         hashMap.put("String","3");
         hashMap.put("String","3");
-        System.out.println("hashMap"+hashMap);
+        System.out.println("hashMap:- "+hashMap);
     }
 
 //    TreeMap is a collection that stores key-value pairs in a sorted order. It’s a good choice when you need to maintain a sorted map.
@@ -75,7 +76,7 @@ public class DataStructureRevision {
         treeSet.add("Hello");
         treeSet.add("Java");
         treeSet.add("World");
-        System.out.println("treeSet:-"+treeSet);
+        System.out.println("treeSet:- "+treeSet);
 
     }
 
@@ -88,10 +89,20 @@ public class DataStructureRevision {
         priorityQueue.add("Hello");
         priorityQueue.add("Java");
         priorityQueue.add("World");
-        System.out.println("priorityQueue:-"+priorityQueue);
+        System.out.println("priorityQueue:- "+priorityQueue);
         System.out.println("poll of priorityQueue:- "+priorityQueue.poll());
 
     }
 
+//    Alternative Java Data Structure
+//      Vector is similar to ArrayList, but it’s thread-safe.
+//      This means multiple threads can modify a Vector without causing concurrency issues. However, this comes at the cost of performance.
+    public static void Vector(String[] args) {
+        List<String> vector = new Vector<>();
+        vector.add("Hello");
+        vector.add("Java");
+        vector.add("World");
+        System.out.println("vector:- "+vector);
+    }
 
 }
