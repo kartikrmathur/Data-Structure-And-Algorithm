@@ -1,5 +1,7 @@
 package datastructures.HashMap
 
+import java.util.*
+
 fun main(args: Array<String>) {
     //A simple example of HashMap class define
     // with empty "HashMap of <String, Int>"

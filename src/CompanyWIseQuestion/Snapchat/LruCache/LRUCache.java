@@ -1,4 +1,4 @@
-package CompanyWIseQuestion.Snapchat;
+package CompanyWIseQuestion.Snapchat.LruCache;
 
 import java.util.HashMap;
 import java.util.Map;
